@@ -332,5 +332,26 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<main class="main">
 
+  <!-- Existing demo site content can be retained or trimmed as needed -->
+  <div class="content">
+    <div class="left-side">
+      <!-- Demo content -->
+      <h1>Hello, {{ title }}</h1>
+      <p>Congratulations! Your app is running. 🎉</p>
+      <!-- Accordion Demonstration Block -->
+      <h2 style="margin-top:2rem; color:#1976d2;">Demo: Blue Theme Accordion</h2>
+      <material-blue-accordion [items]="accordionItems"></material-blue-accordion>
+      <!-- / End Accordion Demo -->
+    </div>
+    <div class="divider" role="separator" aria-label="Divider"></div>
+    <div class="right-side">
+      <!-- Original right-side content (links etc.) -->
+      <ng-container *ngIf="false">
+        <!-- Existing "pill-group" and social links could be optionally left out or preserved -->
+      </ng-container>
+    </div>
+  </div>
+</main>
 <router-outlet />
