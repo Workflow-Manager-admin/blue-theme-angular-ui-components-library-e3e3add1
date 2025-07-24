@@ -1,0 +1,20 @@
+@use '@angular/material' as mat;
+@use './theme.palette.scss' as palette;
+
+$material-blue-theme: mat.define-light-theme((
+  color: (
+    primary: mat.define-palette(palette.$mat-primary, 700, 100, 900),
+    accent: mat.define-palette(palette.$mat-accent, 700, 400, 200),
+    warn: mat.define-palette(palette.$mat-warn)
+  ),
+  typography: mat.define-typography-config(),
+  density: 0,
+));
+
+@include mat.all-component-themes($material-blue-theme);
+
+:root {
+  --blue-primary: #1976d2;
+  --blue-accent: #1565c0;
+  --blue-secondary: #90caf9;
+}

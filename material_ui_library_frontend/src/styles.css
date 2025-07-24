@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+/* To use the material-blue-lib theme, import it in your consumer app's global styles if needed:
+
+  @use 'material-blue-lib/theme' as blue-theme;
+*/
