@@ -1,0 +1,4 @@
+{
+    "command": "npm start -- --port <port> --host <host>",
+    "working_directory": "/home/kavia/workspace/code-generation/blue-theme-angular-ui-components-library-e3e3add1/material_ui_library_frontend"
+}
