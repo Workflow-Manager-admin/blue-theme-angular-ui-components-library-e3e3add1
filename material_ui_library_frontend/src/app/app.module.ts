@@ -5,14 +5,16 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 // Use local project path for the library module
+/* build fix: temporarily remove MaterialBlueLibModule import
 import { MaterialBlueLibModule } from '../../projects/material-blue-lib/src/public-api';
+*/
 
 @NgModule({
   imports: [
     BrowserModule,
     CommonModule,
     RouterModule.forRoot([]),
-    MaterialBlueLibModule,
+    // MaterialBlueLibModule,
     AppComponent // Standalone root import
   ],
   bootstrap: [AppComponent]
