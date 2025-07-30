@@ -1,7 +1,7 @@
-/* BUILD FIX TEMPORARY:
-export * from './lib/accordion/accordion.component';
-export * from './lib/button/button.component';
-export * from './lib/card/card.component';
-export * from './lib/material-blue-lib.module';
-*/
-// TODO: Re-add exports after component implementation
+export * from './lib/login-form-card/login-form-card.component';
+export * from './lib/logo-illustration/logo-illustration.component';
+export * from './lib/text-input-with-icon/text-input-with-icon.component';
+export * from './lib/primary-button/primary-button.component';
+export * from './lib/link-text/link-text.component';
+export * from './lib/background-ellipses/background-ellipses.component';
+// TODO: Export legacy MaterialBlueLibModule and wrappers if still needed
